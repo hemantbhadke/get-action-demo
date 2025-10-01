@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu--latest
         steps:
         - name: Welcome step
-            run: echo"This is my first sstep"
+            run: echo "This is my first sstep"
         - name: kist files
             run: ls
         - name: Read files
