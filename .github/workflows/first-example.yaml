@@ -5,6 +5,7 @@ on: push
 jobs:
     first_job:
         runs-on: ubuntu--latest
+        steps:
         - name: Welcome step
             run: echo"This is my first sstep"
         - name: kist files
